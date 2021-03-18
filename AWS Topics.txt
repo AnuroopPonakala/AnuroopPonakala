@@ -1,0 +1,122 @@
+Tools - GitBash
+
+topics
+
+1. ec2 - Done
+2. volumes (ebs)elastic block storage - Done
+3. iam - done
+4 .vpc (nat, ig, rt, subnets) - Done
+5 .vpc peering - Done
+6  s3 - sone
+7 lb -done
+8. as
+9 cloudwatch, sns
+10. efs
+11. vpc end point - done
+12. route53
+13. rdbms(RDS) -done
+14 .cloudfront
+15. sqs
+16 .security groups and nacl - done
+17. ssm or sms(system management service)
+
+Two ways
+
+Pricing And Performance
+
+1)On Demand(Hourly)
+2)Reserved instance(For a particular time)
+3)Dedicaded (Hardware allocatied)
+4)Spot instance(Bidding)
+
+Performance
+1)General purpose(T2.micro)
+2)Compute optimised based
+3)Memory optimised based
+4)Storage optimised based
+5)Accelerated compute instance
+
+VPC(Virtual private cloud)
+
+IPv4 CIDR block(Calssless inter-Domain routing)
+
+NATGateWay(Network address translation) - - It Allows Out side
+
+
+IAM
+
+Role & Policy
+
+Role - resources
+
+Policy - for user
+
+VPC Peering
+
+2 Types
+Inter VPC Peering(B/W different regions)
+Intra VPC Peering(B/W same region)
+
+Connectivity B/W VPC's is call VPC Peering
+
+
+S3 (Global service)
+
+CRR - Cross region replication -- two buckets in differnet regions
+life cycle rule management -- Moment of data from one storage to another type of storage
+
+through cmd line or console upload max 0 ti 5 tb through cmd
+bucket -- Folder
+object  -- Files
+
+
+Differnt storage
+
+Standard
+Infrequent accessed storage
+One zone infrequent
+Intelligent tiering access storage
+Glacier storage
+Deep archieved glacier storage
+
+Auto scalling
+
+CPU and based on policies and scheduler
+
+auto scalling has two ways
+Schedulers (Cron Jobs, Max and min)
+Policies(Increase and decrease group size based on CPU or memory)
+
+Launch Configuration :
+
+RDS(RDBMS)
+
+Read replica
+Multi avilablity zone
+
+Subnets:
+
+10.10.0.0/172.168.0.0/192.168.0.0/
+
+
+VPC end point :
+
+Private Subnet - Not connect to Internet gateway
+Public Subnet - 
+
+
+*****************************************************************************************
+
+Transit GateWay - Notes
+
+2 ways (with in the region)
+
+between different region
+
+CloudFornt - done
+
+EFS - 
+VPC- public & Private Subnet, Security groups(Public [ 22port], private trough public security group
+ntfs only from private
+
+VPC Flow logs - Note
