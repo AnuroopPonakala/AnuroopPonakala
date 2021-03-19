@@ -119,4 +119,4 @@ EFS -
 VPC- public & Private Subnet, Security groups(Public [ 22port], private trough public security group
 ntfs only from private
 
-VPC Flow logs - Note
+Transit & VPC Flow logs - Note
